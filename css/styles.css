@@ -1,0 +1,152 @@
+p{
+    font-family: Georgia, serif;
+    letter-spacing: 2px;
+    color: #3B3131;
+    font-size: 18px;
+}
+figure{
+    float: right;
+}
+.clearfix{
+  content: "";
+  clear: both;
+  display: table;
+}
+.date_cite{
+    float: right;
+    margin-right: 40px; 
+    
+}
+.center-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.margin_h2{
+    margin-top: 50px;
+    font-size: 50px;
+}
+.section-1{
+    margin: auto;
+    padding-top: 90px;
+}
+.center{
+    text-align: center;
+}
+a:hover{
+    font-weight: 900;
+}
+a:visited{
+    color: rgb(146, 105, 29);
+}
+a.link2:visited{
+    color: orange;
+}
+a:active{
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+body{
+    width: 90%;
+    margin: auto;
+    background-image: 
+    linear-gradient(91deg, rgb(0, 111, 37), rgb(201, 232, 206)),
+    -webkit-linear-gradient(91deg, rgb(0, 111, 37), rgb(201, 232, 206));
+    /* background-image: url("/image/nature.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover; */
+
+}
+.background-yellow{
+    background-color: yellow;
+    width: fit-content;
+    margin: 30px auto 30px auto;
+}
+blockquote{
+    width: 50%;
+    background-color:#DCDCDC;
+    border-left: 3px solid black;
+    padding: 30px;
+    margin: 80px auto 80px auto;
+}
+blockquote p{
+    font-size: 160%;
+    color: #3B3131;
+}
+q{
+    font-style: italic;
+}
+#v1::before{
+    color: red;
+}
+#v2::before{
+    color: green;
+}
+#v3::before{
+    color: blue;
+}
+#v4::before{
+    color: yellow;
+}
+.color-white p, footer p{
+    color:white;
+}
+.notification{
+    background:#FFFFDD;
+    border: 3px solid black;
+    width: 50px;
+    height: 50px;
+    font-weight:bold;
+    color: #333300;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-align: center;
+    border-radius: 50%;
+  }
+  .notification p{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  /* -------- TABLE ------- */
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin: auto;
+  }
+  
+  td, th {
+    border: 2px solid black;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: lightgray;
+  }
+  /* -------- TABLE -------*/
+  .conclusion p{
+      width: 60%;
+      margin: auto auto 50px auto;
+
+  }
+  footer p{
+    font-size: 13px;
+    text-align: center;
+  }
+.good, .bad{
+    text-transform: capitalize;
+}
+.good{
+    color: green;
+}
+.bad{
+    color: red;
+}
